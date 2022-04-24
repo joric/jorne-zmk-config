@@ -22,10 +22,10 @@
 
         default_layer {
             bindings = <
-  &kp Q   &none   &none   &none   &none   &none           &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none   &none           &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none   &none           &none   &none   &none   &none   &none   &none
-                          &none   &none   &none           &none   &none   &none
+ &kp LWIN  &kp GRAVE   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none
+    &none      &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none
+    &none      &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none
+                                       &none   &none   &none   &none   &none   &none
             >;
         };
 
