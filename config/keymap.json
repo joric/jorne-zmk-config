@@ -1,0 +1,16 @@
+{
+  "keyboard": "unknown",
+  "keymap": "unknown",
+  "layout": "unknown",
+  "layer_names": [
+    "default"
+  ],
+  "layers": [
+    [
+        "&kp Q",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+                                      "&none",  "&none",  "&none",            "&none",  "&none",  "&none"
+    ]
+  ]
+}
