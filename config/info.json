@@ -2,6 +2,7 @@
   "layouts": {
     "LAYOUT": {
       "layout": [
+        { "label": "GUI", "row": 2, "col":-1, "x": 0, "y": 2.13},
         { "label": "Tab", "row": 0, "col": 0, "x": 0, "y": 0.5 },
         { "label": "Q", "row": 0, "col": 1, "x": 1, "y": 0.5 },
         { "label": "W", "row": 0, "col": 2, "x": 2, "y": 0.2 },
@@ -13,8 +14,9 @@
         { "label": "I", "row": 0, "col": 9, "x": 11, "y": 0 },
         { "label": "O", "row": 0, "col": 10, "x": 12, "y": 0.2 },
         { "label": "P", "row": 0, "col": 11, "x": 13, "y": 0.5 },
-        { "label": "BSPC", "row": 0, "col": 12, "x": 14, "y": 0.5 },
-      
+        { "label": "BSPC", "row":2, "col":12, "x": 14, "y": 0.5 },
+        { "label": "RGUI", "row":2, "col":13, "x": 16.5, "y": 2.13 },
+
         { "label": "Ctrl", "row": 1, "col": 0, "x": 0, "y": 1.5 },
         { "label": "A", "row": 1, "col": 1, "x": 1, "y": 1.5 },
         { "label": "S", "row": 1, "col": 2, "x": 2, "y": 1.2 },
