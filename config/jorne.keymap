@@ -1,11 +1,8 @@
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
  */
-
-
 /* THIS FILE WAS GENERATED!
  *
  * This file was generated automatically. You may or may not want to
@@ -20,43 +17,41 @@
     keymap {
         compatible = "zmk,keymap";
 
-
         default_layer {
             bindings = <
-   &kp ESC   &kp N1 &kp N2 &kp N3 &kp N4   &kp N5 &kp LBKT     &kp PLUS  &kp N6    &kp N7  &kp N8    &kp N9   &kp N0   &kp BSPC
-   &kp TAB   &kp Q  &kp W  &kp E  &kp R    &kp T  &kp RBKT     &kp EQUAL &kp Y     &kp U   &kp I     &kp O    &kp P    &kp MINUS
-   &kp LSHFT &kp A  &kp S  &kp D  &kp F    &kp G                         &kp H     &kp J   &kp K     &kp L    &kp SEMI &kp SQT
-   &kp LCTRL &kp Z  &kp X  &kp C  &mo LA1  &kp SPACE                     &kp ENTER &mo LA2 &kp COMMA &kp DOT  &kp FSLH &kp BSLH
-                    &kp V  &kp B  &kp LALT &kp GRAVE                     &kp LGUI  &kp DEL &kp N &kp M
+  &kp SQT  &kp COMMA  &kp DOT     &kp P      &kp Y      &kp F  &kp TAB     &kp BSLH      &kp G          &kp C     &kp R   &kp L  &kp FSLH  &kp EQUAL
+ &kp CAPS      &kp A    &kp O     &kp E      &kp U      &kp I    &mo 1    &kp ENTER      &kp D          &kp H     &kp T   &kp N     &kp S  &kp MINUS
+&kp LSHFT   &kp SEMI    &kp Q     &kp J      &kp K      &kp X                            &kp B          &kp M     &kp W   &kp V     &kp Z  &kp RSHFT
+   &kp N1     &kp N2   &kp N3    &kp N4  &kp LCTRL  &kp SPACE                        &kp SPACE      &kp RCTRL    &kp N7  &kp N8    &kp N9     &kp N0
+                       &kp N5  &kp LALT  &kp GRAVE  &kp GRAVE                         &kp LGUI  &kp BACKSPACE  &kp RALT  &kp N6
             >;
         };
 
         layer_lower {
             bindings = <
- &trans       &kp UNDER    &kp F1  &kp F2     &kp F3    &kp F4     &kp F5     &kp F6    &kp F7     &kp F8    &kp F9   &kp F10          &kp F11  &mt RGUI F12
-         &mt LCTRL PLUS  &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS
-         &mt LALT EQUAL    &kp N1  &kp N2     &kp N3    &kp N4     &kp N5     &kp N6    &kp N7     &kp N8    &kp N9    &kp N0           &trans
-                                           &lt 3 TAB    &trans     &trans     &trans    &trans  &lt 3 DEL
+        &trans  &kp UNDER  &kp F1     &kp F2    &kp F3     &kp F4     &kp F5      &kp F6    &kp F7    &kp F8    &kp F9          &kp F10         &kp F11  &mt RGUI F12
+&mt LCTRL PLUS   &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET    &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS  &mt LALT EQUAL        &kp N1
+        &kp N2     &kp N3  &kp N4     &kp N5    &kp N6     &kp N7                           &kp N8    &kp N9    &kp N0           &trans       &lt 3 TAB        &trans
+        &trans     &trans  &trans  &lt 3 DEL
             >;
         };
 
         layer_raise {
             bindings = <
- &trans       &kp KP_NUM     &kp KP_SLASH  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP         &kp SLCK         &kp CAPS  &trans
-         &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS    &kp C_MUTE  &kp LEFT     &kp UP  &kp RIGHT          &kp INS  &mt RCTRL K_APP
-                  &trans        &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3    &kp KP_DOT  &kp C_VOL_DN   &kp END   &kp DOWN  &kp PG_DN  &kp PAUSE_BREAK           &trans
-                                                         &trans     &trans     &lt 3 RET     &lt 3 ESC    &trans     &trans
+         &trans       &kp KP_NUM  &kp KP_SLASH   &kp KP_N7     &kp KP_N8    &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME  &kp PSCRN        &kp PG_UP         &kp SLCK  &kp CAPS     &trans
+&mt LCTRL EQUAL  &kp KP_MULTIPLY     &kp KP_N4   &kp KP_N5     &kp KP_N6  &kp KP_PLUS    &kp C_MUTE        &kp LEFT    &kp UP  &kp RIGHT          &kp INS  &mt RCTRL K_APP    &trans  &kp KP_N0
+      &kp KP_N1        &kp KP_N2     &kp KP_N3  &kp KP_DOT  &kp C_VOL_DN      &kp END                                &kp DOWN  &kp PG_DN  &kp PAUSE_BREAK           &trans    &trans     &trans
+      &lt 3 RET        &lt 3 ESC        &trans      &trans
             >;
         };
 
         layer_adjust {
             bindings = <
- &reset  &bootloader         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none  &bootloader  &reset
-          &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0   &bt BT_CLR
-               &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none        &none
-                                                        &trans         &none        &trans        &trans         &none        &trans
+    &reset   &bootloader         &none         &none         &none         &none         &none           &none         &none         &none         &none       &none  &bootloader  &reset
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4    &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR        &none   &none
+     &none         &none         &none         &none         &none         &none                                       &none         &none         &none       &none       &trans   &none
+    &trans        &trans         &none        &trans
             >;
         };
-
     };
 };
