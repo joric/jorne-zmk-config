@@ -39,11 +39,11 @@
 
         layer_raise {
             bindings = <
-&kp F12    &kp F1  &kp F2     &kp F3    &kp F4    &kp F5  &trans    &EQUAL    &kp F6   &kp F7      &kp F8      &kp F9     &kp F10       &kp F11
- &trans    &trans  &trans     &trans    &trans  &kp LBKT  &trans    &trans  &kp RBKT   &trans  &kp KP_NUM  &kp INSERT   &kp LSLCK    &kp K_MUTE
- &trans  &kp LEFT  &kp UP  &kp RIGHT  &kp DOWN  &kp LPAR                    &kp RPAR  &kp END  &kp K_PREV    &kp K_PP  &kp K_NEXT  &kp K_VOL_UP
- &trans    &trans  &trans     &trans    &trans    &trans                      &trans   &trans      &trans      &trans      &trans  &kp K_VOL_DN
-                   &trans     &trans    &trans    &trans                      &trans   &trans      &trans      &trans
+&kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4    &kp F5  &kp MINUS    &kp EQUAL    &kp N6     &kp N7    &kp N8    &kp N9  &kp N0       &kp DEL
+  &kp TAB  &trans    &trans    &kp UP     &trans  &kp LBKT      &mo 1        &mo 3  &kp RBKT     &trans    &kp UP    &trans  &trans    &kp K_MUTE
+&kp LSHFT  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LPAR                          &kp RPAR   &kp LEFT  &kp DOWN  &kp DOWN  &trans  &kp K_VOL_UP
+&kp LCTRL  &trans    &trans    &trans  &kp SPACE   &kp DEL                           &kp INS  &kp ENTER    &trans    &trans  &trans  &kp K_VOL_DN
+                     &trans    &trans   &kp LALT    &trans                            &trans   &kp RALT    &trans    &trans
             >;
         };
 
