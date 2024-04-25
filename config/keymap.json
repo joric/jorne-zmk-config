@@ -25,7 +25,7 @@
                           "&trans",       "&kp KP_N0", "&kp KP_N1", "&kp KP_N2", "&kp KP_N3",   "&kp KP_DOT", "&kp C_VOL_DN",  "&kp END",  "&kp DOWN", "&kp PG_DN", "&kp PAUSE_BREAK",          "&trans",
                                                                        "&trans",    "&trans",    "&lt 3 RET",    "&lt 3 ESC",   "&trans",    "&trans"
     ], [
-       "&reset", "&bootloader",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none", "&bootloader", "&reset",
+       "&sys_reset", "&bootloader",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none", "&bootloader", "&sys_reset",
                   "&bt BT_CLR", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4", "&bt BT_SEL 4", "&bt BT_SEL 3", "&bt BT_SEL 2", "&bt BT_SEL 1", "&bt BT_SEL 0",  "&bt BT_CLR",
                        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",       "&none",
                                                                       "&trans",        "&none",       "&trans",       "&trans",        "&none",       "&trans"
